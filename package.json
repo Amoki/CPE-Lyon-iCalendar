@@ -1,0 +1,19 @@
+{
+  "name": "IRC-to-ICS",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Amoki/IRC-to-ICS.git"
+  },
+  "author": "Amoki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amoki/IRC-to-ICS/issues"
+  },
+  "homepage": "https://github.com/Amoki/IRC-to-ICS"
+}
