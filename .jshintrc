@@ -16,7 +16,7 @@
   "trailing"      : true,
   "unused"        : true,
   "loopfunc"      : true,
-  
+
   "asi"           : false,
   "boss"          : false,
   "debug"         : false,
@@ -43,7 +43,7 @@
   "sub"           : false,
   "supernew"      : false,
   "validthis"     : false,
-  
+
   "browser"       : false,
   "couch"         : false,
   "devel"         : false,
@@ -55,17 +55,18 @@
   "prototypejs"   : false,
   "rhino"         : false,
   "wsh"           : false,
-  
+
   "nomen"         : false,
   "onevar"        : false,
   "passfail"      : false,
   "white"         : false,
-  
+
   "maxerr"        : 100,
   "predef"        : [
     "describe",
     "it",
     "after",
+    "aftetEach",
     "before",
     "beforeEach"
   ],

@@ -1,7 +1,7 @@
 {
-  "name": "IRC-to-ICS",
-  "version": "0.0.0",
-  "description": "Génère un ICS à partir de l'emploie du temps xlsx",
+  "name": "CPE Lyon iCalendar",
+  "version": "0.0.1",
+  "description": "Génère un ICS à partir des emploies du temps xlsx",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test mocha --recursive -R spec test/ -t 5000"
@@ -11,11 +11,11 @@
     "url": "https://github.com/Amoki/IRC-to-ICS.git"
   },
   "author": "Amoki",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Amoki/IRC-to-ICS/issues"
+    "url": "https://github.com/Amoki/CPE-Lyon-iCalendar/issues"
   },
-  "homepage": "https://github.com/Amoki/IRC-to-ICS",
+  "homepage": "https://github.com/Amoki/CPE-Lyon-iCalendar",
   "dependencies": {
     "ical-generator": "^0.1.7",
     "mocha": "^1.21.4",
