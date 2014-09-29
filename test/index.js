@@ -20,8 +20,6 @@ describe('Index', function(){
     var lessons = lessonParse(data, '3IRC');
 
 
-    //console.log(lessons);
-
     exportToICS(lessons, done);
   });
 });

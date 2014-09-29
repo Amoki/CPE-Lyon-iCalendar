@@ -77,89 +77,89 @@ var horaires = {
  */
 var columnToDate = {
   C: {
-      columnToRefer: "B",
-      creneau: "creneau8h"
-     },
+    columnToRefer: "B",
+    creneau: "creneau8h"
+  },
   D: {
-      columnToRefer: "B",
-      creneau: "creneau10h"
-    },
+    columnToRefer: "B",
+    creneau: "creneau10h"
+  },
   E: {
-      columnToRefer: "B",
-      creneau: "creneau14h"
-    },
+    columnToRefer: "B",
+    creneau: "creneau14h"
+  },
   F: {
-      columnToRefer: "B",
-      creneau: "creneau16h"
-    },
+    columnToRefer: "B",
+    creneau: "creneau16h"
+  },
 
   H: {
-      columnToRefer: "G",
-      creneau: "creneau8h"
-    },
+    columnToRefer: "G",
+    creneau: "creneau8h"
+  },
   I: {
-      columnToRefer: "G",
-      creneau: "creneau10h"
-    },
+    columnToRefer: "G",
+    creneau: "creneau10h"
+  },
   J: {
-      columnToRefer: "G",
-      creneau: "creneau14h"
-    },
+    columnToRefer: "G",
+    creneau: "creneau14h"
+  },
   K: {
-      columnToRefer: "G",
-      creneau: "creneau16h"
-    },
+    columnToRefer: "G",
+    creneau: "creneau16h"
+  },
 
   M: {
-      columnToRefer: "L",
-      creneau: "creneau8h"
-    },
+    columnToRefer: "L",
+    creneau: "creneau8h"
+  },
   N: {
-      columnToRefer: "L",
-      creneau: "creneau10h"
-    },
+    columnToRefer: "L",
+    creneau: "creneau10h"
+  },
   O: {
-      columnToRefer: "L",
-      creneau: "creneau14h"
-    },
+    columnToRefer: "L",
+    creneau: "creneau14h"
+  },
   P: {
-      columnToRefer: "L",
-      creneau: "creneau16h"
-    },
+    columnToRefer: "L",
+    creneau: "creneau16h"
+  },
 
   R: {
-      columnToRefer: "Q",
-      creneau: "creneau8h"
-    },
+    columnToRefer: "Q",
+    creneau: "creneau8h"
+  },
   S: {
-      columnToRefer: "Q",
-      creneau: "creneau10h"
-    },
+    columnToRefer: "Q",
+    creneau: "creneau10h"
+  },
   T: {
-      columnToRefer: "Q",
-      creneau: "creneau14h"
-    },
+    columnToRefer: "Q",
+    creneau: "creneau14h"
+  },
   U: {
-      columnToRefer: "Q",
-      creneau: "creneau16h"
-    },
+    columnToRefer: "Q",
+    creneau: "creneau16h"
+  },
 
   W: {
-      columnToRefer: "V",
-      creneau: "creneau8h"
-    },
+    columnToRefer: "V",
+    creneau: "creneau8h"
+  },
   X: {
-      columnToRefer: "V",
-      creneau: "creneau10h"
-    },
+    columnToRefer: "V",
+    creneau: "creneau10h"
+  },
   Y: {
-      columnToRefer: "V",
-      creneau: "creneau14h"
-    },
+    columnToRefer: "V",
+    creneau: "creneau14h"
+  },
   Z: {
-      columnToRefer: "V",
-      creneau: "creneau16h"
-    },
+    columnToRefer: "V",
+    creneau: "creneau16h"
+  },
 };
 
 var colorToLocation = {
@@ -173,9 +173,15 @@ var colorToLocation = {
   // All others color are supposed to be at CPE
 };
 
+var rawLocationToPrettyLocation = {
+  iut: "IUT 17 Rue de France, 69100 Villeurbanne",
+  afpi: 'AFPI 10 boulevard Edmond Michelet, 69008 Lyon',
+  cpe: '3 rue Victor Grignard, 69100 VILLEURBANNE'
+};
 
 module.exports = {
   horaires: horaires,
   colorToLocation : colorToLocation,
-  columnToDate: columnToDate
+  columnToDate: columnToDate,
+  rawLocationToPrettyLocation: rawLocationToPrettyLocation
 };
