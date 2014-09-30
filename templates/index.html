@@ -1,20 +1,61 @@
-<html>
+
+<!DOCTYPE html>
+<html lang="fr">
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calendrier IRC</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jumbotron.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-    <form action="./link" method="get">
-        <SELECT name="filiere">
-          <% filieres.forEach(function(filiere){ %>
-            <OPTION VALUE=<%= filiere %>><%= filiere %></OPTION>
-          <% }) %>
-        </SELECT>
-        <SELECT name="majeure">
-          <OPTION VALUE="">Aucune</OPTION>
-          <% majeures.forEach(function(majeure){ %>
-            <OPTION VALUE=<%= majeure %>><%= majeure %></OPTION>
-          <% }) %>
-        </SELECT>
-        <INPUT type="submit" value="Valider">
-    </form>
+<div class="container">
+<div class="header">
+    <h3 class="text-muted">Calendrier IRC</h3>
+</div>
+    <div class="jumbotron">
+        <h1>Géneration du fichier ICS</h1>
+        <p class="lead">
+        Générer un fichier ICS en séléctionnant sa promotion d'appartenance et sa majeure (optionnel)
+        <form class="form-inline" role="form" action="./link" method="get">
+            <div class="form-group">
+                <div class="col-sm-4">
+                    <select class="form-control" name="filiere">
+                      <% filieres.forEach(function(filiere){ %>
+                        <option VALUE=<%= filiere %>><%= filiere %></option>
+                      <% }) %>
+                    </select>
+                </div>
+                <div class="col-sm-4">
+                    <select class="form-control" name="majeure">
+                      <option VALUE="">Aucune</option>
+                      <% majeures.forEach(function(majeure){ %>
+                        <option VALUE=<%= majeure %>><%= majeure %></option>
+                      <% }) %>
+                    </select>
+                </div>
+
+                <div class="col-sm-4">
+                    <input type ="button" class="btn btn-primary" type="submit" value="Valider">
+                </div>
+            </div>
+        </form>
+        </p>
+    </div>
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
