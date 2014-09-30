@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -8,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jumbotron.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,9 +19,21 @@
     <![endif]-->
 </head>
 <body>
-  <p>Lien à copier pour bénéficier d'une mise à jour continue du planning:</p>
-  <a href="<%= link %>"><%= link %></a>
-  <p>Vous pouvez aussi télécharger l'ics et l'importer où vous le voulez mais il n'y aura alors pas de mise à jour !</p>
+<div class="container">
+    <div class="header">
+        <h3 class="text-muted">Calendrier IRC</h3>
+    </div>
+    <div class="jumbotron">
+        <h1>Génération termnée</h1>
+        <p>Lien à copier pour bénéficier d'une mise à jour continue du planning:</p>
+        <button type="button" class="btn btn-link" href="<%= link %>"><%= link %></button>
+        <p>Vous pouvez aussi télécharger l'ics et l'importer où vous le voulez mais il n'y aura alors pas de mise à jour !</p>
+    </div>
+    <div class="col-sm-offset-10 col-sm-2">
+        <button type="button" class="btn btn-danger" href="./index.html">Retour</button>
+    </div>
+</div>
+
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->

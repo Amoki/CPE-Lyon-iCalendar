@@ -27,27 +27,26 @@
         <h1>Géneration du fichier ICS</h1>
         <p class="lead">
         Générer un fichier ICS en séléctionnant sa promotion d'appartenance et sa majeure (optionnel)
-        <form class="form-horizontal" role="form" action="./link" method="get">
+        <form class="form-inline" role="form" action="./link" method="get">
             <div class="form-group">
-                <div class="col-sm-6">
-                    <select class="dropdown-menu" name="filiere">
+                <div class="col-sm-4">
+                    <select class="form-control" name="filiere">
                       <% filieres.forEach(function(filiere){ %>
-                        <option role="menuitem" VALUE=<%= filiere %>><%= filiere %></option>
+                        <option VALUE=<%= filiere %>><%= filiere %></option>
                       <% }) %>
                     </select>
                 </div>
-                <div class="col-sm-6">
-                    <select name="majeure">
+                <div class="col-sm-4">
+                    <select class="form-control" name="majeure">
                       <option VALUE="">Aucune</option>
                       <% majeures.forEach(function(majeure){ %>
                         <option VALUE=<%= majeure %>><%= majeure %></option>
                       <% }) %>
                     </select>
                 </div>
-            </div>
-            <div class="form-group">
-                <div class="col-sm-offset-10 col-sm-10">
-                    <input type ="button" class="btn btn-default btn-lg" type="submit" value="Valider">
+
+                <div class="col-sm-4">
+                    <input type ="button" class="btn btn-primary" type="submit" value="Valider">
                 </div>
             </div>
         </form>
