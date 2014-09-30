@@ -10,6 +10,7 @@ Le fichier de configuration est au format json et contient 3 clés:
  - colorToLocation : selectionne un lieu en fonction de la couleur de fond d'une cellule. C'est un dictionnaire avec comme clé le code RGB de la couleur de fond encodée en hexa majuscules avec comme valeur le lieu correspondant à la couleur. Toute couleur non retranscrite dans ce dictionnaire sera considérée comme étant à CPE.
  - timetable : Représente les créneaux horaires des différents lieux de cours.
  - rawLocationToPrettyLocation : Nom à afficher pour le lieu.
+ - (optionnal) majeures: liste des différentes majeures s'il y en a
 
 exemple:
 ```json

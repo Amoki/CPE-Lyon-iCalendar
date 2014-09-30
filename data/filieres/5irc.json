@@ -46,5 +46,7 @@
   "rawLocationToPrettyLocation": {
     "afpi": "AFPI 10 boulevard Edmond Michelet, 69008 Lyon",
     "cpe": "3 rue Victor Grignard, 69100 VILLEURBANNE"
-  }
+  },
+
+  "majeures": ["INFO-SYSTEMES", "TELECOMS-RESEAUX", "INFO-EMBARQUES"]
 }

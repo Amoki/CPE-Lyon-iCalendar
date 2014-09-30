@@ -1,24 +1,35 @@
 {
   "name": "CPE-Lyon-iCalendar",
   "version": "0.0.1",
-  "description": "Génère un ICS à partir des emploies du temps xlsx",
-  "main": "index.js",
+  "description": "Génère un ICS à partir des emplois du temps xlsx",
+  "author": "Hugo Duroux <hugo.duroux@gmail.com>",
+  "main": "./lib/",
+  "bin": {
+    "server": "./bin/server"
+  },
   "scripts": {
-    "test": "NODE_ENV=test mocha --recursive -R spec test/ -t 5000"
+    "start": "node ./bin/server",
+    "test": "NODE_ENV=test mocha --recursive -R spec test/ -t 5000",
+    "lint": "jshint lib/ test/ config/ bin/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Amoki/IRC-to-ICS.git"
+    "url": "https://github.com/Amoki/CPE-Lyon-iCalendar.git"
   },
-  "author": "Amoki",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Amoki/CPE-Lyon-iCalendar/issues"
   },
   "homepage": "https://github.com/Amoki/CPE-Lyon-iCalendar",
   "dependencies": {
+    "async": "^0.9.0",
+    "auto-load": "^1.1.0",
+    "ejs": "^1.0.0",
+    "express": "^4.9.5",
+    "heroku-self-ping": "^1.1.1",
     "ical-generator": "^0.1.7",
     "mocha": "^1.21.4",
+    "rarity": "^2.1.1",
     "should": "^4.0.4",
     "xlsx": "^0.7.10"
   }

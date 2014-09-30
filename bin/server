@@ -1,0 +1,12 @@
+#!/bin/env node
+// Start server
+
+require('heroku-self-ping')(process.env.URL);
+
+// Load server
+var server = require('../app.js');
+
+
+server.listen(3000, function() {
+  console.log('Listening on port 3000');
+});

@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+<body>
+    <form action="./link" method="get">
+        <SELECT name="filiere">
+          <% filieres.forEach(function(filiere){ %>
+            <OPTION VALUE=<%= filiere %>><%= filiere %></OPTION>
+          <% }) %>
+        </SELECT>
+        <SELECT name="majeure">
+          <OPTION VALUE="">Aucune</OPTION>
+          <% majeures.forEach(function(majeure){ %>
+            <OPTION VALUE=<%= majeure %>><%= majeure %></OPTION>
+          <% }) %>
+        </SELECT>
+        <INPUT type="submit" value="Valider">
+    </form>
+</body>
+</html>
