@@ -13,7 +13,7 @@ app.engine('html', require('ejs').renderFile);
 app.set('views', './templates');
 app.set('view engine', 'html');
 
-
+app.use('/assets', express.static(__dirname + '/templates/assets'));
 app.use('/link', middlewares.checkParameters);
 app.use('/ics', middlewares.checkParameters);
 
