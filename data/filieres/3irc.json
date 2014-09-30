@@ -66,8 +66,8 @@
   },
 
   "rawLocationToPrettyLocation": {
-    "iut": "IUT 17 Rue de France, 69100 Villeurbanne",
-    "afpi": "AFPI 10 boulevard Edmond Michelet, 69008 Lyon",
-    "cpe": "3 rue Victor Grignard, 69100 VILLEURBANNE"
+    "iut": "IUT GRATTE-CIEL",
+    "afpi": "AFPI",
+    "cpe": "CPE"
   }
 }
