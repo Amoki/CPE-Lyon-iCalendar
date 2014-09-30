@@ -1,0 +1,86 @@
+{
+  "C": {
+    "columnToRefer": "B",
+    "timeSlot": "timeSlot8h"
+  },
+  "D": {
+    "columnToRefer": "B",
+    "timeSlot": "timeSlot10h"
+  },
+  "E": {
+    "columnToRefer": "B",
+    "timeSlot": "timeSlot14h"
+  },
+  "F": {
+    "columnToRefer": "B",
+    "timeSlot": "timeSlot16h"
+  },
+
+  "H": {
+    "columnToRefer": "G",
+    "timeSlot": "timeSlot8h"
+  },
+  "I": {
+    "columnToRefer": "G",
+    "timeSlot": "timeSlot10h"
+  },
+  "J": {
+    "columnToRefer": "G",
+    "timeSlot": "timeSlot14h"
+  },
+  "K": {
+    "columnToRefer": "G",
+    "timeSlot": "timeSlot16h"
+  },
+
+  "M": {
+    "columnToRefer": "L",
+    "timeSlot": "timeSlot8h"
+  },
+  "N": {
+    "columnToRefer": "L",
+    "timeSlot": "timeSlot10h"
+  },
+  "O": {
+    "columnToRefer": "L",
+    "timeSlot": "timeSlot14h"
+  },
+  "P": {
+    "columnToRefer": "L",
+    "timeSlot": "timeSlot16h"
+  },
+
+  "R": {
+    "columnToRefer": "Q",
+    "timeSlot": "timeSlot8h"
+  },
+  "S": {
+    "columnToRefer": "Q",
+    "timeSlot": "timeSlot10h"
+  },
+  "T": {
+    "columnToRefer": "Q",
+    "timeSlot": "timeSlot14h"
+  },
+  "U": {
+    "columnToRefer": "Q",
+    "timeSlot": "timeSlot16h"
+  },
+
+  "W": {
+    "columnToRefer": "V",
+    "timeSlot": "timeSlot8h"
+  },
+  "X": {
+    "columnToRefer": "V",
+    "timeSlot": "timeSlot10h"
+  },
+  "Y": {
+    "columnToRefer": "V",
+    "timeSlot": "timeSlot14h"
+  },
+  "Z": {
+    "columnToRefer": "V",
+    "timeSlot": "timeSlot16h"
+  }
+}

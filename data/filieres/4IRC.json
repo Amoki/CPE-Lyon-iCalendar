@@ -1,0 +1,50 @@
+{
+  "timetable" : {
+    "cpe": {
+      "timeSlot8h": {
+        "start": "8h00",
+        "end": "10h00"
+      },
+      "timeSlot10h": {
+        "start": "10h15",
+        "end": "12h15"
+      },
+      "timeSlot14h": {
+        "start": "13h30",
+        "end": "15h30"
+      },
+      "timeSlot16h": {
+        "start": "15h45",
+        "end": "17h45"
+      }
+    },
+    "afpi": {
+      "timeSlot8h": {
+        "start": "8h30",
+        "end": "10h30"
+      },
+      "timeSlot10h": {
+        "start": "10h30",
+        "end": "12h30"
+      },
+      "timeSlot14h": {
+        "start": "13h30",
+        "end": "15h30"
+      },
+      "timeSlot16h": {
+        "start": "15h30",
+        "end": "17h30"
+      }
+    }
+  },
+
+  "colorToLocation": {
+    "FCD5B4": "afpi",
+    "FAC090": "afpi"
+  },
+
+  "rawLocationToPrettyLocation": {
+    "afpi": "AFPI 10 boulevard Edmond Michelet, 69008 Lyon",
+    "cpe": "3 rue Victor Grignard, 69100 VILLEURBANNE"
+  }
+}

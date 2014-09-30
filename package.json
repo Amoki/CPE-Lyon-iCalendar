@@ -1,5 +1,5 @@
 {
-  "name": "CPE Lyon iCalendar",
+  "name": "CPE-Lyon-iCalendar",
   "version": "0.0.1",
   "description": "Génère un ICS à partir des emploies du temps xlsx",
   "main": "index.js",
