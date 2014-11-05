@@ -25,7 +25,7 @@ exemple:
         "start": "10h15",
         "end": "12h15"
       },
-    }
+    },
     "afpi": {
       "timeSlot8h": {
         "start": "8h30",
