@@ -3,10 +3,10 @@
  */
 
 // node_env can either be "development" or "production"
-var default_port = 8000;
+var defaultPort = 32100;
 
 
 // Exports configuration
 module.exports = {
-  port: process.env.PORT || default_port,
+  port: process.env.PORT || defaultPort,
 };
