@@ -46,5 +46,6 @@
   "rawLocationToPrettyLocation": {
     "afpi": "AFPI",
     "cpe": "CPE"
-  }
+  },
+  "rooms": "https://www.google.com/calendar/ical/45g13gkimitt7ub0etbmoqjie0%40group.calendar.google.com/public/basic.ics"
 }

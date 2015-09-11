@@ -48,5 +48,11 @@
     "cpe": "CPE"
   },
 
-  "majeures": ["INFO-SYSTEMES", "TELECOMS-RESEAUX", "INFO-EMBARQUES"]
+  "majeures": ["INFO-SYSTEMES", "TELECOMS-RESEAUX", "INFO-EMBARQUES"],
+
+  "rooms" : {
+    "INFO-SYSTEMES": "https://www.google.com/calendar/ical/vubck52n4obur1eb3n0of2tdcc%40group.calendar.google.com/public/basic.ics",
+    "TELECOMS-RESEAUX": "https://www.google.com/calendar/ical/li0mbug6goil66gfd8d7ef1td4%40group.calendar.google.com/public/basic.ics",
+    "INFO-EMBARQUES": "https://www.google.com/calendar/ical/5jo21hpvcd15jqgp42d49ctbns%40group.calendar.google.com/public/basic.ics"
+  }
 }
